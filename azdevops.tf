@@ -1,8 +1,8 @@
 provider "azurerm" {
-    subscription_id = "aa2d7c8e-59b4-4d84-a3bd-b40d66047009"
-    client_id = "e4fdcba6-3f48-483d-95dd-95dfc90ceaf7"
-    client_secret = "9e0736b2-267e-4475-a6c3-b07bb28d3631"
-    tenant_id = "9ca63fc6-79df-4f91-a4aa-08e7b7846cf4"
+    subscription_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    client_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    client_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    tenant_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 }
 #create azure resource group
 resource "azurerm_resource_group" "DevopsRG" {
